@@ -15,10 +15,6 @@ public class FirstController {
 
     @Resource
     private RedisTemplate redisTemplate;
-
-    @Resource
-    private LettuceConnection lc;
-
     @RequestMapping("/k1")
     public String K1(){
         User user=new User(1, "java的架构师技术栈", "man");
