@@ -10,8 +10,9 @@
     </parent>
     <groupId>cn.k</groupId>
     <artifactId>lettuce</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.80-SNAPSHOT</version>
     <name>lettuce</name>
+    <packaging>jar</packaging>
     <description>redis 客户端</description>
 
     <properties>
